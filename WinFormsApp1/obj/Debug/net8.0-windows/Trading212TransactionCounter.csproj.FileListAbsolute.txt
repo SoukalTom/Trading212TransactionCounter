@@ -1,0 +1,17 @@
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\bin\Debug\net8.0-windows\Trading212TransactionCounter.exe
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\bin\Debug\net8.0-windows\Trading212TransactionCounter.deps.json
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\bin\Debug\net8.0-windows\Trading212TransactionCounter.runtimeconfig.json
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\bin\Debug\net8.0-windows\Trading212TransactionCounter.dll
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\bin\Debug\net8.0-windows\Trading212TransactionCounter.pdb
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\obj\Debug\net8.0-windows\Trading212TransactionCounter.csproj.GenerateResource.cache
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\obj\Debug\net8.0-windows\Trading212TransactionCounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\obj\Debug\net8.0-windows\Trading212TransactionCounter.AssemblyInfoInputs.cache
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\obj\Debug\net8.0-windows\Trading212TransactionCounter.AssemblyInfo.cs
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\obj\Debug\net8.0-windows\Trading212TransactionCounter.csproj.CoreCompileInputs.cache
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\obj\Debug\net8.0-windows\Trading212TransactionCounter.sourcelink.json
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\obj\Debug\net8.0-windows\Trading212TransactionCounter.dll
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\obj\Debug\net8.0-windows\refint\Trading212TransactionCounter.dll
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\obj\Debug\net8.0-windows\Trading212TransactionCounter.pdb
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\obj\Debug\net8.0-windows\Trading212TransactionCounter.genruntimeconfig.cache
+C:\Users\souka\Documents\GitHub\Trading212TransactionCounter\Trading212TransactionCounter\WinFormsApp1\obj\Debug\net8.0-windows\ref\Trading212TransactionCounter.dll

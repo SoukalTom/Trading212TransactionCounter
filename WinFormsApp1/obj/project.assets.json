@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\souka\\Documents\\GitHub\\Trading212TransactionCounter\\Trading212TransactionCounter\\WinFormsApp1\\WinFormsApp1.csproj",
-      "projectName": "WinFormsApp1",
-      "projectPath": "C:\\Users\\souka\\Documents\\GitHub\\Trading212TransactionCounter\\Trading212TransactionCounter\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "C:\\Users\\souka\\Documents\\GitHub\\Trading212TransactionCounter\\Trading212TransactionCounter\\WinFormsApp1\\Trading212TransactionCounter.csproj",
+      "projectName": "Trading212TransactionCounter",
+      "projectPath": "C:\\Users\\souka\\Documents\\GitHub\\Trading212TransactionCounter\\Trading212TransactionCounter\\WinFormsApp1\\Trading212TransactionCounter.csproj",
       "packagesPath": "C:\\Users\\souka\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\souka\\Documents\\GitHub\\Trading212TransactionCounter\\Trading212TransactionCounter\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",

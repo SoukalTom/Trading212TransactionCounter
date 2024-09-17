@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\souka\\Documents\\GitHub\\Trading212TransactionCounter\\Trading212TransactionCounter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E77356F8-9F74-4744-B8FA-11FFB37E6D75}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\souka\\documents\\github\\trading212transactioncounter\\trading212transactioncounter\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E77356F8-9F74-4744-B8FA-11FFB37E6D75}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\souka\\Documents\\GitHub\\Trading212TransactionCounter\\Trading212TransactionCounter\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E77356F8-9F74-4744-B8FA-11FFB37E6D75}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77356F8-9F74-4744-B8FA-11FFB37E6D75}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\souka\\documents\\github\\trading212transactioncounter\\trading212transactioncounter\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77356F8-9F74-4744-B8FA-11FFB37E6D75}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77356F8-9F74-4744-B8FA-11FFB37E6D75}|WinFormsApp1\\Trading212TransactionCounter.csproj|c:\\users\\souka\\documents\\github\\trading212transactioncounter\\trading212transactioncounter\\winformsapp1\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77356F8-9F74-4744-B8FA-11FFB37E6D75}|WinFormsApp1\\Trading212TransactionCounter.csproj|solutionrelative:winformsapp1\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,12 +30,38 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\souka\\Documents\\GitHub\\Trading212TransactionCounter\\Trading212TransactionCounter\\WinFormsApp1\\FileProcessor.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\FileProcessor.cs",
+              "ToolTip": "C:\\Users\\souka\\Documents\\GitHub\\Trading212TransactionCounter\\Trading212TransactionCounter\\WinFormsApp1\\FileProcessor.cs",
+              "RelativeToolTip": "WinFormsApp1\\FileProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:54:50.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\souka\\Documents\\GitHub\\Trading212TransactionCounter\\Trading212TransactionCounter\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\souka\\Documents\\GitHub\\Trading212TransactionCounter\\Trading212TransactionCounter\\WinFormsApp1\\Form1.cs*",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:57:45.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\souka\\Documents\\GitHub\\Trading212TransactionCounter\\Trading212TransactionCounter\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "C:\\Users\\souka\\Documents\\GitHub\\Trading212TransactionCounter\\Trading212TransactionCounter\\WinFormsApp1\\Form1.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\souka\\Documents\\GitHub\\Trading212TransactionCounter\\Trading212TransactionCounter\\WinFormsApp1\\Form1.cs [Design]*",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T13:15:21.183Z",
               "EditorCaption": " [Design]"
