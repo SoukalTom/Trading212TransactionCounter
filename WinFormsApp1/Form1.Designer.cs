@@ -31,10 +31,15 @@
             openFileDialog1 = new OpenFileDialog();
             fileBrowserButton = new Button();
             confirmFilePath = new Button();
-            label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            label2 = new Label();
+            labelProfit = new Label();
+            textBoxProfit = new TextBox();
+            textBoxMarketSell = new TextBox();
+            labelMarketSell = new Label();
+            textBoxMarketBuy = new TextBox();
+            labelMarketBuy = new Label();
+            labelSelectedFile = new Label();
+            textBoxDividend = new TextBox();
+            labelDividend = new Label();
             SuspendLayout();
             // 
             // openFileDialog1
@@ -45,65 +50,113 @@
             // 
             fileBrowserButton.Location = new Point(12, 26);
             fileBrowserButton.Name = "fileBrowserButton";
-            fileBrowserButton.Size = new Size(75, 23);
+            fileBrowserButton.Size = new Size(95, 23);
             fileBrowserButton.TabIndex = 0;
-            fileBrowserButton.Text = "Choose File";
+            fileBrowserButton.Text = "Select File";
             fileBrowserButton.UseVisualStyleBackColor = true;
             fileBrowserButton.Click += fileBrowserButton_Click;
             // 
             // confirmFilePath
             // 
-            confirmFilePath.Location = new Point(103, 26);
+            confirmFilePath.Location = new Point(12, 248);
             confirmFilePath.Name = "confirmFilePath";
             confirmFilePath.Size = new Size(75, 23);
             confirmFilePath.TabIndex = 1;
-            confirmFilePath.Text = "Confirm";
+            confirmFilePath.Text = "Calculate";
             confirmFilePath.UseVisualStyleBackColor = true;
             confirmFilePath.Click += confirmFilePath_Click;
             // 
-            // label1
+            // labelProfit
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(12, 100);
-            label1.Name = "label1";
-            label1.Size = new Size(36, 15);
-            label1.TabIndex = 2;
-            label1.Text = "Profit";
+            labelProfit.AutoSize = true;
+            labelProfit.Location = new Point(12, 74);
+            labelProfit.Name = "labelProfit";
+            labelProfit.Size = new Size(36, 15);
+            labelProfit.TabIndex = 2;
+            labelProfit.Text = "Profit";
             // 
-            // textBox1
+            // textBoxProfit
             // 
-            textBox1.Location = new Point(118, 100);
-            textBox1.Name = "textBox1";
-            textBox1.ReadOnly = true;
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 3;
+            textBoxProfit.Location = new Point(118, 74);
+            textBoxProfit.Name = "textBoxProfit";
+            textBoxProfit.ReadOnly = true;
+            textBoxProfit.Size = new Size(100, 23);
+            textBoxProfit.TabIndex = 3;
             // 
-            // textBox2
+            // textBoxMarketSell
             // 
-            textBox2.Location = new Point(118, 140);
-            textBox2.Name = "textBox2";
-            textBox2.ReadOnly = true;
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 5;
+            textBoxMarketSell.Location = new Point(118, 114);
+            textBoxMarketSell.Name = "textBoxMarketSell";
+            textBoxMarketSell.ReadOnly = true;
+            textBoxMarketSell.Size = new Size(100, 23);
+            textBoxMarketSell.TabIndex = 5;
             // 
-            // label2
+            // labelMarketSell
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(12, 140);
-            label2.Name = "label2";
-            label2.Size = new Size(100, 15);
-            label2.TabIndex = 4;
-            label2.Text = "Total selling value";
+            labelMarketSell.AutoSize = true;
+            labelMarketSell.Location = new Point(12, 114);
+            labelMarketSell.Name = "labelMarketSell";
+            labelMarketSell.Size = new Size(92, 15);
+            labelMarketSell.TabIndex = 4;
+            labelMarketSell.Text = "Total market sell";
+            // 
+            // textBoxMarketBuy
+            // 
+            textBoxMarketBuy.Location = new Point(118, 156);
+            textBoxMarketBuy.Name = "textBoxMarketBuy";
+            textBoxMarketBuy.ReadOnly = true;
+            textBoxMarketBuy.Size = new Size(100, 23);
+            textBoxMarketBuy.TabIndex = 7;
+            // 
+            // labelMarketBuy
+            // 
+            labelMarketBuy.AutoSize = true;
+            labelMarketBuy.Location = new Point(12, 156);
+            labelMarketBuy.Name = "labelMarketBuy";
+            labelMarketBuy.Size = new Size(95, 15);
+            labelMarketBuy.TabIndex = 6;
+            labelMarketBuy.Text = "Total market buy";
+            // 
+            // labelSelectedFile
+            // 
+            labelSelectedFile.AutoSize = true;
+            labelSelectedFile.Location = new Point(118, 30);
+            labelSelectedFile.Name = "labelSelectedFile";
+            labelSelectedFile.Size = new Size(111, 15);
+            labelSelectedFile.TabIndex = 8;
+            labelSelectedFile.Text = "No file was selected";
+            // 
+            // textBoxDividend
+            // 
+            textBoxDividend.Location = new Point(118, 199);
+            textBoxDividend.Name = "textBoxDividend";
+            textBoxDividend.ReadOnly = true;
+            textBoxDividend.Size = new Size(100, 23);
+            textBoxDividend.TabIndex = 10;
+            // 
+            // labelDividend
+            // 
+            labelDividend.AutoSize = true;
+            labelDividend.Location = new Point(12, 199);
+            labelDividend.Name = "labelDividend";
+            labelDividend.Size = new Size(54, 15);
+            labelDividend.TabIndex = 9;
+            labelDividend.Text = "Dividend";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(475, 450);
-            Controls.Add(textBox2);
-            Controls.Add(label2);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
+            Controls.Add(textBoxDividend);
+            Controls.Add(labelDividend);
+            Controls.Add(labelSelectedFile);
+            Controls.Add(textBoxMarketBuy);
+            Controls.Add(labelMarketBuy);
+            Controls.Add(textBoxMarketSell);
+            Controls.Add(labelMarketSell);
+            Controls.Add(textBoxProfit);
+            Controls.Add(labelProfit);
             Controls.Add(confirmFilePath);
             Controls.Add(fileBrowserButton);
             Name = "Form1";
@@ -117,9 +170,14 @@
         private OpenFileDialog openFileDialog1;
         private Button fileBrowserButton;
         private Button confirmFilePath;
-        private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Label label2;
+        private Label labelProfit;
+        private TextBox textBoxProfit;
+        private TextBox textBoxMarketSell;
+        private Label labelMarketSell;
+        private TextBox textBoxMarketBuy;
+        private Label labelMarketBuy;
+        private Label labelSelectedFile;
+        private TextBox textBoxDividend;
+        private Label labelDividend;
     }
 }

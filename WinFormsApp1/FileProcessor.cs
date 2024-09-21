@@ -9,8 +9,10 @@
             int resultIndex = 9;
             int totalIndex = 11;
 
-            float totalResult = 0;
-            float totalSalesValue = 0;
+            float totalProfit = 0;
+            float totalMarketSell = 0;
+            float totalMarketBuy = 0;
+            float dividend = 0;
 
 
 
@@ -20,15 +22,25 @@
                 {
                     var row = reader.ReadLine().Split(",").ToList();
 
-                    if (row[actionIndex].ToLower().Trim().Equals("market sell"))
+                    if (row[actionIndex].ToLower().Trim().Contains("market sell"))
                     {
-                        totalResult += float.Parse(row[resultIndex].Replace(".", ","));
-                        totalSalesValue += float.Parse(row[totalIndex].Replace(".", ","));
+                        totalProfit += float.Parse(row[resultIndex].Replace(".", ","));
+                        totalMarketSell += float.Parse(row[totalIndex].Replace(".", ","));
+                    }
+
+                    if (row[actionIndex].ToLower().Trim().Contains("market buy"))
+                    {
+                        totalMarketBuy += float.Parse(row[totalIndex].Replace(".", ","));
+                    }
+
+                    if (row[actionIndex].ToLower().Trim().Contains("dividend"))
+                    {
+                        dividend += float.Parse(row[totalIndex].Replace(".", ","));
                     }
                 }
             }
 
-            return new List<float> { totalResult, totalSalesValue };
+            return new List<float> { totalProfit, totalMarketSell, totalMarketBuy, dividend };
         }
     }
 }

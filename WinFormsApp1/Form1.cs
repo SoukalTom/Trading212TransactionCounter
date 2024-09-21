@@ -25,6 +25,7 @@ namespace WinFormsApp1
             {
                 // Get the selected file path
                 filePath = openFileDialog.FileName;
+                labelSelectedFile.Text = filePath;
             }
         }
 
@@ -33,8 +34,10 @@ namespace WinFormsApp1
             if (filePath != null)
             {
                 List<float> resultValues = fileProcess.processSelectedFile(filePath);
-                textBox1.Text = resultValues[0].ToString();
-                textBox2.Text = resultValues[1].ToString();
+                textBoxProfit.Text = resultValues[0].ToString();
+                textBoxMarketSell.Text = resultValues[1].ToString();
+                textBoxMarketBuy.Text = resultValues[2].ToString();
+                textBoxDividend.Text = resultValues[3].ToString();
             }
         }
     }
