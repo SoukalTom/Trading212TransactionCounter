@@ -7,8 +7,8 @@
         {
             // Possitions of important values
             int actionIndex = 0;
-            int resultIndex = 9;
-            int totalIndex = 11;
+            int resultIndex = 0;
+            int totalIndex = 0;
 
             // Result values for return
             float totalProfit = 0;
@@ -20,14 +20,24 @@
 
             using (var reader = new StreamReader(filePath))
             {
-                // Reads file to the end
+                // Reads file
                 while (!reader.EndOfStream)
                 {
                     var row = reader.ReadLine().Split(",").ToList();
 
+                    // Gets index number of column with needed values 
+                    for (int i = 0; i < row.Count; i++)
+                    {
+                        if (row[i].ToLower().Trim().Equals("result"))
+                            resultIndex = i;
+
+                        if (row[i].ToLower().Trim().Equals("total"))
+                            totalIndex = i;
+                    }
+
                     if (row[actionIndex].ToLower().Trim().Contains("market sell"))
                     {
-                        // Counts profit made and total market sell value
+                        // Counts result (profit made) and total market sell value
                         totalProfit += float.Parse(row[resultIndex].Replace(".", ","));
                         totalMarketSell += float.Parse(row[totalIndex].Replace(".", ","));
                     }

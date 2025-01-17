@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Trading212TransactionCounter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc3b7ff3ec52901d321045a428af0a8e0f300c0f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e008d4abe892c48f543dcc548d0686ef2de616ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("Trading212TransactionCounter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Trading212TransactionCounter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
